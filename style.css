@@ -13,3 +13,7 @@ footer p{font-size:14px;font-weight:600;line-height:1.6}
 footer small{font-size:12px;font-weight:500;line-height:1.75;max-width:340px;color:#d7c4db}
 footer button{font-size:12px;font-weight:700;padding:11px 0}
 @media(max-width:700px){.ending{padding-bottom:28px}footer p{font-size:14px}footer small{font-size:12px}footer button{font-size:11px}}
+
+/* Donation commitment */
+.hero-pledge{display:inline-block;margin-top:22px;font-size:11px;font-weight:700;letter-spacing:.4px;text-underline-offset:4px;color:var(--peach)}.giving{background:var(--cream)}.giving-layout{display:grid;grid-template-columns:.85fr 1.15fr;align-items:center;gap:70px}.giving-number{font:clamp(130px,19vw,300px)/1 'Anton',Impact,sans-serif;letter-spacing:-10px;color:var(--plum)}.giving-number span{font-size:.5em;letter-spacing:-2px;color:#b86c87}.giving-copy h2{font-size:clamp(34px,3.8vw,60px)}.giving-copy h2 em{color:#b86c87}.giving-copy p{font-size:16px;line-height:1.8;max-width:550px;margin:25px 0}.giving-copy strong{font-weight:700}.giving .button{background:var(--plum);border-color:var(--plum);color:var(--cream);box-shadow:4px 4px var(--pink)}.giving .button:hover{background:var(--deep)}@media(max-width:700px){.giving-layout{grid-template-columns:1fr;gap:25px}.giving-number{font-size:160px;letter-spacing:-6px}.giving-copy p{font-size:15px}.hero-pledge{font-size:10px;max-width:290px;line-height:1.7}}
+
