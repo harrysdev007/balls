@@ -1,5 +1,5 @@
 // Add official launch details here when announced.
-const CONFIG={socialUrl:'',contractAddress:''};
+const CONFIG={socialUrl:'https://x.com/balls_sol_coin',contractAddress:''};
 const shots=[['balls-crash','THE WORLD WENT RED','A BAD DAY FOR EVERYONE ELSE'],['balls-coast','VICE STREET','SUNSET IS STILL FREE'],['balls-pool','LIQUIDITY POOL','THE ONLY POOL THAT MATTERS'],['balls-word','MY WORD','THE ONE THING YOU KEEP'],['balls-night','AFTER HOURS','SAME MAN. DIFFERENT MARKET.'],['balls-hero','STILL HERE','A MIAMI STATE OF MIND.']];
 const grid=document.querySelector('#gallery-grid');
 shots.forEach(([file,title,subtitle],i)=>{const b=document.createElement('button');b.className='gallery-item';b.setAttribute('aria-label','Open scene: '+title);b.innerHTML='<img src="assets/'+file+'.png" alt="Tony Montana — '+title.toLowerCase()+'" loading="lazy"><span><small>'+subtitle+'</small>'+title+'</span><b class="gallery-arrow" aria-hidden="true">↗</b>';b.addEventListener('click',()=>openShot(i));grid.append(b)});
